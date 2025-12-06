@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "module": "index.ts",
+  "scripts": {
+    "build": "bun build.ts",
+    "check": "bun run typecheck && bun run lint && bun run build",
+    "lint": "eslint --max-warnings=0",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "eslint": "^9.39.1",
+    "typescript": "^5"
+  },
+  "type": "module",
+  "dependencies": {
+    "@lonnycorp/htmlforge": "0.1.1"
+  }
+}
