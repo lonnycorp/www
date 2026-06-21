@@ -1,6 +1,6 @@
 # www
 
-![Release](https://github.com/lonnycorp/www/actions/workflows/release.yml/badge.svg)
+![Release](https://github.com/tlonny/www/actions/workflows/release.yml/badge.svg)
 
 Static website for [The Lonny Corporation](https://www.lonnycorp.com).
 
