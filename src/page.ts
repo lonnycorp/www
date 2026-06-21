@@ -31,7 +31,7 @@ const PROJECTS : ProjectParams[] = [
         ].join("")
     },
     {
-        path: "https://github.com/lonnycorp/htmlforge",
+        path: "https://github.com/tlonny/htmlforge",
         name: "HTMLForge",
         description: [
             "A minimal, zero dependency HTML builder with efficient ",
@@ -39,7 +39,7 @@ const PROJECTS : ProjectParams[] = [
         ].join("")
     },
     {
-        path: "https://github.com/lonnycorp/astroparse",
+        path: "https://github.com/tlonny/astroparse",
         name: "AstroParse",
         description: [
             "A minimal, zero dependency, fully-typed parser combinator ",
